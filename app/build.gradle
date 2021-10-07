@@ -54,4 +54,7 @@ dependencies {
 
     /* MATERIAL DIALOG */
     implementation 'me.drakeet.materialdialog:library:1.3.1'
+
+    /* VIEW MODEL */
+    implementation "android.arch.lifecycle:extensions:1.0.0-beta2"
 }

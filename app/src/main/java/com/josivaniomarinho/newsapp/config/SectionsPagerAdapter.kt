@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 import com.josivaniomarinho.newsapp.activity.SingUpActivity
 import com.josivaniomarinho.newsapp.fragments.SingUpPersonalFragment
 import com.josivaniomarinho.newsapp.fragments.SingUpAccessFragment
+import com.josivaniomarinho.newsapp.fragments.SingUpTermsFragment
 
 /**
  * Um [FragmentPagerAdapter] que retorna um fragment correspondente a
@@ -20,7 +21,7 @@ class SectionsPagerAdapter(activity: SingUpActivity, fm: FragmentManager):
         return when( position ){
             0 -> SingUpPersonalFragment()
             1 -> SingUpAccessFragment()
-            else -> SingUpAccessFragment()
+            else -> SingUpTermsFragment()
         }
     }
 

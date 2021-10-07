@@ -25,7 +25,7 @@
                 android:text="@string/terms_and_conditions" />
         </androidx.core.widget.NestedScrollView>
 
-        <CheckBox
+        <androidx.appcompat.widget.AppCompatCheckBox
             android:id="@+id/cb_terms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

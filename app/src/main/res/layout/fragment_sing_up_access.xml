@@ -10,7 +10,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/et_email"
+            android:id="@+id/et_email_fgm"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -24,10 +24,10 @@
             android:paddingStart="16dp" />
 
         <EditText
-            android:id="@+id/et_password"
+            android:id="@+id/et_password_fgm"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/et_email"
+            android:layout_below="@+id/et_email_fgm"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
             android:background="@drawable/field_radius"
